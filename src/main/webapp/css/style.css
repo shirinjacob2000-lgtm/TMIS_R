@@ -1,0 +1,244 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #eef2f6;
+}
+
+/* Top Header */
+.gov-header {
+	background: #0a3d91;
+	color: #fff;
+	padding: 8px 0;
+	font-size: 14px;
+}
+
+/* Logo Bar */
+.logo-bar {
+	background: #ffffff;
+	border-bottom: 1px solid #dcdcdc;
+	padding: 10px 0;
+}
+
+.logo-bar img {
+	height: 60px;
+}
+
+.system-title {
+	font-size: 22px;
+	font-weight: bold;
+	color: #0a3d91;
+}
+
+.system-subtitle {
+	font-size: 14px;
+	color: #555;
+}
+
+/* Navigation */
+.navbar {
+	background: #0a3d91;
+}
+
+.navbar .nav-link {
+	color: #fff !important;
+	font-weight: 600;
+	padding: 12px 15px;
+}
+
+.navbar .nav-link:hover {
+	background: #062c66;
+}
+
+/* Notice Bar */
+.notice-bar {
+	background: #fff3cd;
+	border-bottom: 1px solid #ffeeba;
+	padding: 8px 15px;
+	font-size: 14px;
+	color: #856404;
+}
+
+/* Dashboard Cards */
+.stat-card {
+	background: #ffffff;
+	border-radius: 4px;
+	border-left: 5px solid #0a3d91;
+	padding: 20px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.stat-card h6 {
+	font-size: 14px;
+	color: #555;
+	margin-bottom: 10px;
+}
+
+.stat-card h2 {
+	font-weight: bold;
+	color: #0a3d91;
+}
+
+/* Compact slider like NIC portals */
+.slider-img {
+	max-height: 560px;
+	object-fit: cover;
+}
+
+.custom-caption {
+	background: rgba(10, 61, 145, 0.75);
+	padding: 6px 12px;
+	border-radius: 3px;
+	bottom: 15px;
+}
+
+.custom-caption h6 {
+	font-size: 14px;
+	margin-bottom: 2px;
+}
+
+.custom-caption p {
+	font-size: 12px;
+	margin: 0;
+}
+
+/* Login page specific styles */
+.login-wrapper {
+	min-height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.login-card {
+	width: 100%;
+	max-width: 420px;
+	border-radius: 6px;
+	border: none;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.login-header {
+	background: #0a3d91;
+	color: #fff;
+	padding: 15px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.login-footer {
+	font-size: 13px;
+	text-align: center;
+	color: #666;
+}
+
+.form-control:focus {
+	border-color: #0a3d91;
+	box-shadow: none;
+}
+
+.btn-login {
+	background: #0a3d91;
+	border: none;
+}
+
+.btn-login:hover {
+	background: #062c66;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 240px;
+	background: #0a3d91;
+	color: #fff;
+	transition: width 0.3s;
+	z-index: 1000;
+}
+
+.sidebar.collapsed {
+	width: 70px;
+}
+
+.sidebar-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+	font-weight: bold;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.sidebar-menu li a {
+	display: flex;
+	align-items: center;
+	padding: 12px 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.sidebar-menu li a:hover {
+	background: rgba(255, 255, 255, 0.15);
+}
+
+.sidebar-menu i {
+	width: 30px;
+	text-align: center;
+}
+
+.sidebar.collapsed span {
+	display: none;
+}
+
+.logout {
+	margin-top: auto;
+}
+
+/* ===== Main Content ===== */
+.main-content {
+	margin-left: 40px;
+	padding: 50px;
+	transition: margin-left 0.3s;
+}
+
+.main-content.expanded {
+	margin-left: 20px;
+}
+
+/* ===== Dashboard Cards ===== */
+.dashboard-card {
+	background: #fff;
+	border-radius: 6px;
+	padding: 20px;
+	text-align: center;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+.dashboard-card i {
+	font-size: 28px;
+	color: #0a3d91;
+	margin-bottom: 10px;
+}
+
+.dashboard-card:hover {
+	transform: translateY(-3px);
+	transition: 0.2s;
+}
+
+/* Footer */
+footer {
+	background: #0a3d91;
+	color: #fff;
+	font-size: 14px;
+	padding: 10px 0;
+	margin-top: 50px;
+}
